@@ -8,7 +8,7 @@ const MockServer: React.VFC = () => {
 
   const fetchUser = async () => {
     axios
-      .get("https://jsonplaceholder.typicode.com/users/11")
+      .get("https://jsonplaceholder.typicode.com/users/1")
       .then((res) => {
         const { username } = res.data;
         setUsername(username);
