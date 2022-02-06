@@ -7,6 +7,7 @@ import FrameworkList from "./FrameworkList";
 import MockServer from "./MockServer";
 import Redux from "./Redux";
 import ReduxAync from "./ReduxAync";
+import CustomHooks from "./CustomHooks";
 
 function App() {
   const output = (text: string): void => {
@@ -38,6 +39,7 @@ function App() {
         <MockServer />
         <Redux />
         <ReduxAync />
+        <CustomHooks />
         {/* <FrameworkList /> */}
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
