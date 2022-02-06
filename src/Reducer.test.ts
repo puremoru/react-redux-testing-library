@@ -2,7 +2,7 @@ import reducer, {
   increment,
   incrementByAmount,
   CounterState,
-} from "../src/features/customCounter/customCounterSlice";
+} from "./features/customCounter/customCounterSlice";
 
 describe("Reducer of ReduxToolKit", () => {
   describe("increment action", () => {
